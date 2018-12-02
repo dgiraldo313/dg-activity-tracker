@@ -1,13 +1,14 @@
 {
   "name": "dg-activity-tracker",
   "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
+  "description": "RESTful API for Personal Portfolio - Daniel Giraldo",
   "engines": {
     "node": "10.x"
   },
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "start-db": "mongod",
     "test": "node test.js"
   },
   "dependencies": {
@@ -22,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/dgiraldo313/dg-activity-tracker"
   },
   "keywords": [
     "node",
